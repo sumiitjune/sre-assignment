@@ -105,4 +105,4 @@ I fixed these by checking logs and using kubectl describe.
 
 ## GitHub
 
-(Add your repo link here)
+https://github.com/sumiitjune/sre-assignment
