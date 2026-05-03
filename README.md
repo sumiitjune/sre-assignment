@@ -39,42 +39,31 @@ I made this project to learn how a containerized app works and how Kubernetes ma
 
 Start minikube:
 
-```
 minikube start
-```
 
 Use minikube docker:
 
-```
 eval $(minikube docker-env)
-```
+
 
 Build image:
 
-```
 docker build -t sre-dev-app .
-```
 
 Deploy:
 
-```
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
-```
+
 
 Check pods:
 
-```
 kubectl get pods
-```
 
 Open app:
 
-```
 minikube service flask-service
-```
 
----
 
 ## Endpoints
 
